@@ -7,7 +7,7 @@ function documentAlert() {
   const monthEnd1Date = getLastDateOfMonth(today);
   const monthStartDate = new Date(today.getFullYear(), today.getMonth(), 1);
 
-  sendNotificationIfDue(today, monthEnd5Date, -5, today+、5営業日前になりました。見込み版勤怠の提出をお願いします。);
+  sendNotificationIfDue(today, monthEnd5Date, -6, today+、5営業日前になりました。見込み版勤怠の提出をお願いします。);
   sendNotificationIfDue(today, monthEnd1Date, -1, today+、最終営業日になりました。確定版勤怠の提出をお願いします。);
   sendNotificationIfDue(today, monthStartDate, 1, today+、第一営業日になりました。自社勤怠と交通費精算の提出をお願いします。);
 }
